@@ -1,0 +1,18 @@
+//Save state 1 + 2 sudocode
+
+while (Game) {
+
+	// Save state 1 (base game)
+	if (button_pressed) {
+		if (light == on) {
+			score ++;
+		
+	// Save state 2 with loss handling 
+
+		} else {
+			print("You lose!");
+			break;
+		}
+	}
+
+}
